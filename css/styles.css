@@ -1,5 +1,5 @@
 body{
-    font-family: 'Roboto' sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background: #fff;
 }
@@ -44,7 +44,10 @@ a{
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.navigation-link:hover,focus{
+.navigation-link:hover{
+    color: #404bbf;
+}
+.navigation-link:focus{
     color: #404bbf;
 }
 .contacts {
@@ -62,7 +65,10 @@ a{
     letter-spacing: 0.02em;
     color: #434455;
 }
-.contacts-link:hover,focus{
+.contacts-link:hover{
+    color: #404bbf;
+}
+.contacts-link:focus{
     color: #404bbf;
 }
 /*-----------------------Section-first----------------*/
@@ -81,7 +87,6 @@ a{
 }
 
 .button-service{
-    background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -90,8 +95,11 @@ a{
     color: #fff;
     cursor: pointer;
 }
-.button-service:hover,focus{
-   color: #404BBF;
+.button-service:hover{
+    background-color: #4D5AE5;
+}
+.button-service:focus{
+    background-color: #4D5AE5;
 }
 /*--------------------------Section-quality----------------*/
 
@@ -139,10 +147,11 @@ a{
 }
 
 .team-list {
-    background-color: #FFFFFF;
 }
 
-.team-item {}
+.team-item {
+    background-color: #FFFFFF;
+}
 
 .team-image {
 }
